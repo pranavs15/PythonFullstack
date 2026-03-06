@@ -1,0 +1,18 @@
+Question 4:
+An e-commerce company wants to analyze customer purchase behavior.
+ 
+Table: 
+Orders
+order_id
+customer_id
+product_id
+quantity
+total_amount
+ 
+Write SQL queries to:
+Find the total amount spent by each customer.
+Find the number of orders placed by each customer.
+Display customers who placed more than 3 orders.
+Find customers whose total spending is greater than 10,000.
+Find products whose total quantity sold is greater than 100.
+ 

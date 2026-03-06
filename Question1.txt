@@ -1,0 +1,86 @@
+Question:1
+A company stores employee data and their project performance.
+Tables
+ 
+Employees
+emp_id
+emp_name
+department
+salary
+joining_date
+ 
+Projects
+project_id
+project_name
+start_date
+end_date
+ 
+Employee_Project
+emp_id
+project_id
+hours_worked
+rating
+ 
+Write SQL queries to:
+Find employees who worked on more than 2 projects.
+Display employees whose average rating across projects is above 4.
+Find the highest paid employee in each department.
+Show employees who never worked on any project.
+Find the project with the highest total hours worked.
+ 
+date is the datatype
+ 
+Question 2:
+ 
+A retail company wants to analyze customer orders.
+ 
+Tables
+ 
+Customers
+customer_id
+name
+city
+ 
+Orders
+ 
+order_id
+customer_id
+order_date
+total_amount
+Order_Items
+order_item_id
+order_id
+product_id
+quantity
+ 
+Products
+product_id
+product_name
+price
+ 
+Write SQL queries to:
+Find customers who placed more than 3 orders.
+Find the top 5 customers by total spending.
+Display the most ordered product.
+Find customers who never placed an order.
+Calculate the total revenue generated each month.
+ 
+Question 3:
+ 
+A company wants to identify high-performing employees.
+Table: 
+Employees
+Columns
+ 
+emp_id
+emp_name
+department
+salary
+ 
+Write SQL queries to:
+Find employees whose salary is greater than the average salary of all employees.
+Find employees whose salary is greater than the average salary of their own department.
+Find employees who earn the highest salary in their department.
+Display employees who earn less than the highest salary in the company but more than the average salary.
+Find departments whose average salary is greater than the company’s average salary.
+ 

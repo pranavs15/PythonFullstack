@@ -1,0 +1,90 @@
+Develop a Task Management Web Application where users can create, view, filter, update, and delete tasks.
+ 
+ 
+ 
+1. Task Creation
+Users must be able to create a new task.
+Input Fields
+Title (Required)
+Priority (Required)
+Priority values:
+Low
+Medium
+High
+ 
+When a task is created:
+completed should be set to False by default
+created_at should store the current timestamp
+ 
+2. View All Tasks
+Users should be able to view all tasks.
+Tasks should be returned sorted by newest first.
+ 
+3. Task Filtering 
+Users must be able to filter tasks using query parameters. E.g
+Filter by priority
+/tasks?priority=High
+Filter by completion status
+Filter by both
+/tasks?priority=High&completed=false
+ 
+4. Update Task Completion Status
+Users must be able to toggle task completion status.
+ 
+Example
+If task is completed=false → update to true.
+ 
+5. Delete Task
+Users must be able to delete tasks.
+ 
+ 
+Table: tasks
+id
+title
+Task title
+priority
+completed
+Boolean
+      Default False
+ 
+Timestamp
+ 
+The Boolean written is the data type for completed field and its default values will be false
+ 
+Final table:
+ 
+Table: tasks
+id
+title
+Task title
+priority
+completed
+Boolean
+created_at 
+ 
+Final table:
+ 
+Table: tasks
+id
+title
+Task title
+priority
+completed
+created_at 
+ 
+For the 3rd requirement in React follow the following:
+ 
+Add filter controls above the table.
+ 
+Filters:
+Priority dropdown
+Completed checkbox
+When filter changes:
+Frontend must call API like:
+ 
+/tasks?priority=High
+OR
+ 
+ 
+/tasks?completed=true
+ 
